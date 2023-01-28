@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: 0;
+  list-style: none;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+nav {
+  height: 80px;
+  width: 100%;
+  background: #34495e;
+}
+
+label.logo {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  padding: 0 10px;
+  line-height: 80px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 40px;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 0 8px;
+  line-height: 80px;
+}
