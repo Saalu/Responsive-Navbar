@@ -55,6 +55,7 @@ label.menu {
   font-size: 30px;
   float: right;
   margin-right: 40px;
+  line-height: 80px;
 }
 
 @media (max-width: 1048px) {
@@ -69,12 +70,16 @@ label.menu {
   nav a {
     font-size: 17px;
   }
+  label.menu {
+    display: none;
+  }
 }
 
 @media (max-width: 900px) {
-  nav.menu {
+  label.menu {
     display: block;
   }
+
   nav ul {
     position: fixed;
     height: 100vh;
@@ -85,7 +90,7 @@ label.menu {
     text-align: center;
   }
 
-  nav li {
+  nav ul li {
     display: block;
     margin: 50px 0;
     line-height: 30px;
