@@ -1,1 +1,6 @@
-console.log('Hello!');
+const menuIcon = document.getElementById('menu')
+
+
+menuIcon.addEventListener('click', function(){
+  
+})
