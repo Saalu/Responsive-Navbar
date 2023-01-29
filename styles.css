@@ -89,6 +89,7 @@ label.menu {
     top: 80px;
     left: 0;
     text-align: center;
+    transition: all 0.5s;
   }
 
   nav ul li {
@@ -106,4 +107,9 @@ label.menu {
     border: none;
     color: #3498db;
   }
+}
+
+nav ul.show {
+  left: 0;
+  background: red;
 }
